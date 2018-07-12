@@ -32,6 +32,9 @@ element.innerText +="My mother "+me.mother.name+" is "+me.mother.age+" years old
 element.innerText +="My father "+me.father.name+" is "+me.father.age+" years old and is an "+me.father.occupation+"."
 var numSiblings = me.siblings.length - 1
 element.innerText +="I have "+numSiblings+" siblings."
+// Lie about my number of siblings
+numSiblings = 0
+//
 siblingIndex = 0
 if(numSiblings > 0) {
     do{
