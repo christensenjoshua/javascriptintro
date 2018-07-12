@@ -52,3 +52,8 @@ if (numSiblings > 0) {
 function checkDate(garbage, moreGarbage) {
     alert("I don't do anything anymore!")
 }
+var somethingVar = JSON.stringify(paula)
+var copyVar = JSON.parse(somethingVar)
+paula.name ="someone else"
+console.log(copyVar.name)
+element.innerText += somethingVar
